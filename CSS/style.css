@@ -1,0 +1,371 @@
+.wrap {
+	width: 800px;
+	margin: 0 auto;
+}
+body {
+	background: #F1EEE9;
+	margin: 0;
+}
+.wrap> h2 {
+	color: #333333;
+	font-size: 35px;
+	font-family: Poppins, sans-serif;
+	text-align: center;
+	margin-bottom: 0;
+}
+.wrap> p {
+	font-size: 16px;
+	font-family: Poppins, sans-serif;
+	font-style: italic;
+	color: #B2891B;
+	text-align: center;
+	margin-top: 0;
+}
+.wrap .ss {
+	display: flex;
+	justify-content: center;
+}
+.wrap .ss a {
+	text-decoration: none;
+	border: 2px solid #ABB1BA;
+	background: #fff;
+	color: #333333;
+	font-size: 12px;
+	border-left: none;
+	border-top: none;
+	font-family: Poppins, sans-serif;
+	padding: 0 5px;
+	margin: 3px;
+}
+.wrap .ss a:hover {
+	background: #000;
+	color: #fff;
+}
+.inline {
+	display: flex;
+	justify-content: space-between;
+}
+.animation {
+	width: 380px;
+	height: 425px;
+	margin: 30px 10px 20px;
+	border: 10px solid #fff;
+	position: relative;
+}
+.animation img {
+	width: inherit;
+	height: inherit;
+}
+.animation .over {
+	background: rgba(26, 183, 152, .8);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+}
+.animation .over h2 {
+	color: #fff;
+	font-size: 20px;
+	font-family: Poppins, sans-serif;
+	text-align: center;
+	margin: 50px 0 25px;
+}
+.animation .over p {
+	font-size: 16px;
+	font-family: Poppins, sans-serif;
+	font-style: italic;
+	color: #fff;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 90px; 
+}
+.animation .over .img {
+	display: flex;
+	justify-content: center;
+}
+.animation .over .img .icons {
+	font-size: 30px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #A1A1A1;
+    text-align: center;
+    line-height: 55px;
+    margin: 7px;
+}
+.animation> h3 {
+	color: #333333;
+	font-family: Poppins, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.animation> p {
+	color: #919191;
+	font-size: 16px;
+	font-family: Poppins, sans-serif;
+	font-style: italic;
+	text-align: center;
+	margin: 0 0 30px;
+}
+.animation:hover .over {
+	display: block;
+} 
+.animation:hover h3 {
+	color: #1AB798;
+}
+.animation2 {
+	width: 380px;
+	height: 425px;
+	margin: 30px 10px 20px;
+	border: 10px solid #fff;
+	position: relative;
+	overflow: hidden;
+}
+.animation2 img {
+	width: inherit;
+	height: inherit;
+}
+.animation2 .over2 {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transform: scale(5);
+	opacity: 0;
+	transition: 1s;
+}
+ .over2 h2 {
+	color: #1AB798;
+	font-size: 20px;
+	font-family: Poppins, sans-serif;
+	text-align: center;
+	margin: 50px 0 25px;	
+}
+.animation2 .over2 p {
+	font-size: 16px;
+	font-family: Poppins, sans-serif;
+	font-style: italic;
+	color: #1AB798;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 90px;	
+}
+.animation2 .over2 .img2 {
+	display: flex;
+	justify-content: center;
+}
+.animation2 .over2 .img2 .icons2 {
+	font-size: 30px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #A1A1A1;
+    text-align: center;
+    line-height: 55px;
+    margin: 7px;    
+}
+.animation2> h3 {
+	color: #364855;
+	font-family: Poppins, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.animation2> p {
+	color: #919191;
+	font-size: 16px;
+	font-family: Poppins, sans-serif;
+	font-style: italic;
+	text-align: center;
+	margin: 0 0 30px;
+}
+.animation2:hover .over2 {
+	transform: scale(1);
+	opacity: 1;
+}
+.animation2:hover h3 {
+	color: #000;
+}
+.inline2 {
+	display: flex;
+	justify-content: space-between;
+}
+.animation3 {
+	width: 380px;
+	height: 425px;
+	margin: 70px 10px 20px;
+	border: 10px solid #fff;
+	position: relative;
+}
+.animation3 img {
+	width: inherit;
+	height: inherit;
+}
+.animation3 .over3 {
+	background: rgba(0, 0, 0, .3);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+}
+ .over3 h2 {
+	color: #fff;
+	font-size: 20px;
+	font-family: Poppins, sans-serif;
+	text-align: center;
+	margin: 50px 0 25px;	
+}
+.animation3 .over3 p {
+	font-size: 16px;
+	font-family: Poppins, sans-serif;
+	font-style: italic;
+	color: #1AB798;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 90px;	
+}
+.animation3 .over3 .img3 {
+	display: flex;
+	justify-content: center;
+}
+.animation3 .over3 .img3 .icons3 {
+	font-size: 30px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #A1A1A1;
+    text-align: center;
+    line-height: 55px;
+    margin: 7px;    
+}
+.animation3> h3 {
+	color: #364855;
+	font-family: Poppins, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.animation3> p {
+	color: #919191;
+	font-size: 16px;
+	font-family: Poppins, sans-serif;
+	font-style: italic;
+	text-align: center;
+	margin: 0 0 30px;
+}
+.animation3:hover img {
+	animation-name: krutit;
+	animation-duration: 3s;
+	animation-timing-function: linear;	
+}
+
+.animation3:hover h3 {
+	color: #1AB798;
+}
+.animation4 {
+	width: 380px;
+	height: 425px;
+	margin: 70px 10px 20px;
+	border: 10px solid #fff;
+	position: relative;
+	overflow: hidden;
+}
+.animation4 img {
+	width: inherit;
+	height: inherit;
+}
+.animation4 .over4 {
+	background: rgba(0, 0, 0, .3);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+}
+ .over4 h2 {
+	color: #1AB798;
+	font-size: 20px;
+	font-family: Poppins, sans-serif;
+	text-align: center;
+	margin: 50px 0 25px;	
+}
+.animation4 .over4 p {
+	font-size: 16px;
+	font-family: Poppins, sans-serif;
+	font-style: italic;
+	color: yellow;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 90px;	
+}
+.animation4 .over4 .img4 {
+	display: flex;
+	justify-content: center;
+}
+.animation4 .over4 .img4 .icons4 {
+	font-size: 30px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background: #A1A1A1;
+    text-align: center;
+    line-height: 55px;
+    margin: 7px;    
+}
+.animation4> h3 {
+	color: #364855;
+	font-family: Poppins, sans-serif;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+.animation4> p {
+	color: #919191;
+	font-size: 16px;
+	font-family: Poppins, sans-serif;
+	font-style: italic;
+	text-align: center;
+	margin: 0 0 30px;
+}
+.animation4:hover img {
+	animation-name: krutita;
+	animation-duration: 1s;
+	animation-timing-function: linear;	
+}
+
+.animation4:hover h3 {
+	color: #1AB798;
+}
+
+
+@keyframes krutit {
+	0% {
+	transform: scale(1);
+	opacity: 0;
+	}
+	20% .over {
+	opacity: 0.5;
+	}
+	50% {
+	transform: scale(0);
+	}
+	100% {
+	transform: scale(1);
+	}
+}
+
+@keyframes krutita {
+	0% {
+	transform: rotate(0deg);
+	}
+	100% {
+	transform: rotate(360deg);
+	}
+}
